@@ -6,8 +6,8 @@ import (
 )
 
 type Duplicate struct {
-	row    int
 	column int
+	row    int
 }
 
 func Find(arr [][]string) []Duplicate {
